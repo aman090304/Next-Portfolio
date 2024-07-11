@@ -14,7 +14,7 @@ const EmailSection = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", process.env.ACCESS_KEY);
+    formData.append("access_key", "f61ceea8-7a12-4e9b-b605-e78cf37c91ea");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
