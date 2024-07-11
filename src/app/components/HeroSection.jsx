@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-blue-700">
-              Hello, I';m{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -35,9 +35,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          My quick learning skill is a standout asset that allows me to adapt swiftly and efficiently to new situations and challenges.
-
-
+            My quick learning skill is a standout asset that allows me to adapt
+            swiftly and efficiently to new situations and challenges.
           </p>
           <div>
             <Link
@@ -48,7 +47,6 @@ const HeroSection = () => {
             </Link>
             <Link
               href="https://drive.google.com/file/d/1RpVKAbZo8HRkBIhPvT71Gw1JRVrcEHgV/view?usp=sharing"
-              
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-primary-400 to-blue-700 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -64,7 +62,7 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-[#181818] z-2 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-          <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-indigo-500 opacity-40 rounded-full h-80 w-80 z-0 blur-2xl absolute  transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"></div>
+            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-indigo-500 opacity-40 rounded-full h-80 w-80 z-0 blur-2xl absolute  transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"></div>
             <Image
               src="/images/4.png"
               alt="hero image"
