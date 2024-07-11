@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/1.mp4",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/aman090304/Next-Portfolio",
-    previewUrl: "/",
+    previewUrl: "https://next-portfolio-xi-rosy.vercel.app/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.mp4",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/aman090304/Portfolio",
-    previewUrl: "/",
+    previewUrl: "https://portfolio-six-liard-87.vercel.app/",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const projectsData = [
     image: "/images/projects/3.mp4",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/aman090304/Musica",
-    previewUrl: "/",
+    previewUrl: "https://musica-opal.vercel.app/",
   },
   {
     id: 4,
